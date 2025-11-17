@@ -5,9 +5,6 @@ Practice of CSS's Grid Layout.
 
 
 
-
-
-
 Personal notes
 ## Terminology:
 ### "Grid Track" - 
