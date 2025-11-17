@@ -2,7 +2,13 @@
 
 Practice of CSS's Grid Layout.
 
-<!-- Personal notes -->
+
+
+
+
+
+
+Personal notes
 ## Terminology:
 ### "Grid Track" - 
 just refers to a row or a column
