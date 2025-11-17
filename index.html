@@ -16,7 +16,7 @@
             <img src="assets/view-dashboard-outline.svg" alt="dashboard">
             <a href="#">Dashboard</a>
         </h2>
-        <nav>
+        <nav class="sidebar-options">
             <ul>
                 <li>
                     <img src="assets/home-account.svg" alt="home">
@@ -45,11 +45,12 @@
             </ul>
         </nav>
 
-        <nav>
+        <nav class="sidebar-options">
             <ul>
-                <li><a href="#">
-                        <img src="assets/cog-outline.svg" alt="settings">
-                        Settings</a></li>
+                <li>
+                    <img src="assets/cog-outline.svg" alt="settings">
+                    <a href="#">Settings</a>
+                </li>
                 <li>
                     <img src="assets/help-box-multiple-outline.svg" alt="support">
                     <a href="#">Support</a>
@@ -62,24 +63,32 @@
         </nav>
     </aside>
 
-    <div id="header-and-main">
+    <div id="header">
+
         <header>
             <form action="#" method="get">
                 <button type="submit"><img src="assets/magnify.svg" alt="search"></button>
                 <input type="search" name="search">
             </form>
         </header>
-        <ul>
+        <ul id="user-info">
             <li><img src="assets/bell-ring-outline.svg" alt="bell"></li>
             <li><img src="assets/cat.svg" alt="cat"></li>
             <li>Morgan Oakley</li>
         </ul>
+        <div>
+            <img src="assets/cat.svg" alt="cat">
+            <p>Hi there,</p>
+            <p>Morgan Oakley (@morgan)</p>
+        </div>
+        <ul id="user-actions">
+            <li><button>New</button></li>
+            <li><button>Upload</button></li>
+            <li><button>Share</button></li>
+        </ul>
+
     </div>
-    <ul>
-        <li><button>New</button></li>
-        <li><button>Upload</button></li>
-        <li><button>Share</button></li>
-    </ul>
+
     <main id="main">
         <section id="projects">
             <h2>My Projects</h2>

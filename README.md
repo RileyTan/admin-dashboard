@@ -69,3 +69,6 @@ https://css-tricks.com/snippets/css/complete-guide-grid/#grid-properties
 
 Flexbox vs Grid:
 https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-using-flexbox-and-grid
+
+"items" are used on the grid container to control all the grid items all at one go 
+"self" is used on individual grid items
